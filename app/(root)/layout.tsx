@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {/* <Topbar /> */}
         {/* <div className="border-b border-gray-400"></div> */}
-        <main className='flex flex-row min-h-screen bg-gradient-to-r from-indigo-950 via-indigo-500 to-blue-400 '>
+        <main className='flex flex-row min-h-screen bg-gradient-to-r from-indigo-950 via-indigo-500 to-indigo-600 '>
           <section className='main-container'>
             <div className='w-full max-w-4xl mx-4'>{children}</div>
           </section>
