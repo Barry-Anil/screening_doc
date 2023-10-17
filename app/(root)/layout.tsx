@@ -1,3 +1,4 @@
+
 import Topbar from '@/components/shared/Topbar'
 import '../globals.css'
 import type { Metadata } from 'next'
@@ -27,11 +28,11 @@ export default function RootLayout({
   >
     <html lang='en'>
       <body className={inter.className}>
-        <Topbar />
-
-        <main className='flex flex-row'>
+        {/* <Topbar /> */}
+        {/* <div className="border-b border-gray-400"></div> */}
+        <main className='flex flex-row min-h-screen bg-gradient-to-r from-indigo-950 via-indigo-500 to-blue-400 '>
           <section className='main-container'>
-            <div className='w-full max-w-4xl'>{children}</div>
+            <div className='w-full max-w-4xl mx-4'>{children}</div>
           </section>
         </main>
 
