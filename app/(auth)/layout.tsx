@@ -21,10 +21,9 @@ export default function RootLayout({
     appearance={{
       baseTheme: dark,
     }}
-
     >
       <html lang="en">
-        <body className={`${inter.className} bg-dark-1`}>{children}</body>
+        <body className={`${inter.className} bg-dark-1 flex justify-center`}>{children}</body>
       </html>
     </ClerkProvider>
   )
